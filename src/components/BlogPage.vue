@@ -19,7 +19,7 @@ export default {
           id: "2",
           img: [require("@/assets/fingerprint-text.png")],
           tags: "#Photoshop",
-          link: "",
+          link: "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
         },
         {
           id: "3",
