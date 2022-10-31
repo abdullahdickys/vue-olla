@@ -7,37 +7,49 @@ export default {
           id: "0",
           img: [require("@/assets/cawang-01.jpg")],
           tags: ["#vintage", "#logo"],
-          link: "",
+          link: [
+            "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
+          ],
         },
         {
           id: "1",
           img: [require("@/assets/abstract.jpg")],
           tags: ["#Illustration", "logo"],
-          link: "",
+          link: [
+            "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
+          ],
         },
         {
           id: "2",
           img: [require("@/assets/fingerprint-text.png")],
-          tags: "#Photoshop",
-          link: "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
+          tags: ["#Photoshop", "#illustration"],
+          link: [
+            "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
+          ],
         },
         {
           id: "3",
           img: [require("@/assets/pattern-2.png")],
-          tags: "#Pattern",
-          link: "",
+          tags: ["#Pattern", "#illustration"],
+          link: [
+            "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
+          ],
         },
         {
           id: "4",
           img: [require("@/assets/pattern-japan.png")],
-          tags: "#Typograph",
-          link: "",
+          tags: ["#Typograph", "#illustration"],
+          link: [
+            "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
+          ],
         },
         {
           id: "5",
           img: [require("@/assets/illustration-brush.jpg")],
-          tags: "#Typograph",
-          link: "",
+          tags: ["#Typograph", "#illustration"],
+          link: [
+            "https://drive.google.com/file/d/1tMu0y__alXODCvkdt1Rlxbn1mGIymBLq/view?usp=sharing",
+          ],
         },
       ],
     };
@@ -94,6 +106,7 @@ export default {
                   </svg>
                 </button>
                 <button
+                  :src="work.link"
                   @click="myFunction()"
                   class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition"
                 >
