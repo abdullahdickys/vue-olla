@@ -42,8 +42,7 @@ export default defineComponent({
             <p
               class="mt-2 mb-9 xs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg font-normal text-white text-center antialiased mx-auto"
             >
-              Adobe Illustrator | Corel Draw | Adobe Photoshop | Laravel | Vuejs
-              | Javascript
+              Adobe Illustrator | Corel Draw | Adobe Photoshop | 
             </p>
             <router-link to="blog">
               <button
